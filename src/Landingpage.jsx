@@ -6,7 +6,7 @@ function Landingpage(){
 return(
 <div className="container">
 <h1>Welcome to PopX</h1>
-<h3>Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit.</h3>
+<h3>Lorem ipsum dolor sit amet&comma;<br /> consectetur adipisicing elit.</h3>
 
 
 <Link to='/signup'><button className="create">Create Account </button></Link>
