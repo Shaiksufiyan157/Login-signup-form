@@ -16,4 +16,4 @@ return(
 
 }
 
-export default Landingpage
+export default Landingpage;

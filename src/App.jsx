@@ -1,6 +1,6 @@
 import {Route,Routes} from 'react-router'
 import { useState } from 'react'
-import Landingpage from './landingpage'
+import Landingpage from './Landingpage.jsx'
 import CreateAcc from './CreateAcc'
 import Account from './Account'
 import Login from './Login'
