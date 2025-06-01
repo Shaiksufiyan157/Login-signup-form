@@ -1,21 +1,17 @@
 import {Route,Routes} from 'react-router'
-import { useState } from 'react'
 
 import CreateAcc from './CreateAcc'
 import Account from './Account'
 import Login from './Login'
-import LandingPage from './LandingPage'
-
-
+import Landing from './Landing'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
 
 <>
 <Routes>
-<Route path='/' element={<LandingPage/>}/>
+<Route path='/' element={<Landing/>}/>
 <Route path='/signin' element={<Login/>}/>
 <Route path='/signup' element={<CreateAcc/>}/>
 <Route path='/account' element={<Account/>}/>
