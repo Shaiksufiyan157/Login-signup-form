@@ -1,7 +1,7 @@
-import "./styles/Landingpage.css"
+import "./styles/LandingPage.css"
 import { Link } from "react-router-dom"
 
-function Landingpage(){
+function LandingPage(){
 
 return(
 <div className="container">
@@ -16,4 +16,4 @@ return(
 
 }
 
-export default Landingpage;
+export default LandingPage;

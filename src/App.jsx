@@ -4,7 +4,7 @@ import { useState } from 'react'
 import CreateAcc from './CreateAcc'
 import Account from './Account'
 import Login from './Login'
-import Landingpage from './Landingpage'
+import LandingPage from './LandingPage'
 
 
 
