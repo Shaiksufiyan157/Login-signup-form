@@ -1,12 +1,69 @@
-# React + Vite
+# PopX Login/Signup React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive login/signup application built with React and React Router, deployed on Render.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit the live project here: [https://login-signup-form-topk.onrender.com](https://login-signup-form-topk.onrender.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Landing page with call-to-action buttons
+- Signup page with validation and form fields
+- Login page with email/password fields
+- Account page showing user details
+- Profile image with placeholder photo
+- Responsive and styled using custom CSS
+
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── App.jsx # App component with routing
+├── main.jsx # Entry point with BrowserRouter
+│
+├── Landing.jsx # Landing screen
+├── Login.jsx # Login form
+├── CreateAcc.jsx # Signup form with state management
+├── Account.jsx # Account settings page
+│
+├── styles/ # Custom CSS files
+│
+└── shaik sufiyan.jpg # Profile image used in Account.jsx
+
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd <project-folder>
+Install dependencies:
+
+
+npm install
+Start the development server:
+
+npm run dev
+Open in browser:
+http://localhost:5173 (Vite default)
+
+🛠 Built With
+React
+React Router
+Vite
+Custom CSS
+
+📄 License
+This project is for educational/demo purposes and not intended for production use. Feel free to modify and use it.
+
+🙋‍♂️ Author
+Shaik Sufiyan
+📧 Email: shaiksufiyan157@gmail.com (placeholder)
+🖼️ Profile: Displayed on the account page
